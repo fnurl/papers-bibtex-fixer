@@ -1,4 +1,4 @@
-fixbib.py is a  small script that fixes the BibTeX output from [Papers 2](http://www.mekentosj.com/papers/).
+fixbib.py is a  small script that fixes the BibTeX output from [Papers 2](http://www.mekentosj.com/papers/). The script fixes escaping of special characters and maintains capitalization by wrapping capital letters in the `booktitle`, `journal`, and `publisher` fields inside a pair of curly brackets.
 
 Use it by giving the .bib file you want to process as the argument to the script. The script will output the results to standard output. So e.g. if you want to process the file refs.bib and save the results to refs-fixed.bib you would use the following command:
 
