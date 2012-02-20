@@ -10,7 +10,6 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv, "h", ["help"])
         filename = args[0]
-        print filename
     except getopt.GetoptError:
         usage()
         sys.exit(2)
